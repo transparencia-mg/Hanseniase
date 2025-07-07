@@ -23,10 +23,16 @@ resources:
           description: Município de Notificação
         - name: id_regiona
           type: string
+          title: Regional de Notificação
+          description: Regional de Notificação
         - name: id_unidade
           type: integer
+          title: Unidade de Notificação
+          description: Unidade de Notificação
         - name: dt_diag
           type: date
+          title: Data do diagnóstico
+          description: Data do diagnóstico
         - name: dt_nasc
           type: date
         - name: nu_idade_n
