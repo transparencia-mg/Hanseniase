@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 2.382,
+  "time": 2.502,
   "errors": [],
   "tasks": [
     {
@@ -49,15 +49,28 @@
             },
             {
               "name": "dt_nasc",
-              "type": "date"
+              "type": "date",
+              "title": "Data de Nascimento",
+              "description": "Data de Nascimento"
             },
             {
               "name": "nu_idade_n",
-              "type": "integer"
+              "type": "integer",
+              "title": "Idade",
+              "description": "Idade"
             },
             {
               "name": "cs_sexo",
-              "type": "string"
+              "type": "string",
+              "title": "Sexo",
+              "description": "Sexo",
+              "constraints": {
+                "enum": [
+                  "Feminino",
+                  "Masculino",
+                  "Ignorado"
+                ]
+              }
             },
             {
               "name": "cs_gestant",
@@ -170,7 +183,7 @@
           "rows": 20409
         }
       },
-      "time": 2.356,
+      "time": 2.477,
       "scope": [
         "hash-count-error",
         "byte-count-error",
