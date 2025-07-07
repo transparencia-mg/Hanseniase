@@ -2,7 +2,7 @@ name: hanseniase
 owner_org: secretaria-de-estado-de-saude-ses
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: Dados sobre a hanseníase
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -15,8 +15,12 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de Notificação
         - name: id_municip
           type: string
+          title: Município de Notificação
+          description: Município de Notificação
         - name: id_regiona
           type: string
         - name: id_unidade
@@ -80,5 +84,5 @@ resources:
         - name: tpalta_n
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Hanseníase
 title: Hanseníase
