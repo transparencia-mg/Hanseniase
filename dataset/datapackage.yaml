@@ -35,10 +35,21 @@ resources:
           description: Data do diagnóstico
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de Nascimento
         - name: nu_idade_n
           type: integer
+          title: Idade
+          description: Idade
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+          enum:
+            - 'Feminino'
+            - 'Masculino'
+            - 'Ignorado'
         - name: cs_gestant
           type: string
         - name: cs_raca
