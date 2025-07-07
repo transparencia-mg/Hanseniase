@@ -1,11 +1,11 @@
 {
   "version": "4.16.6",
-  "time": 2.359,
+  "time": 2.394,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "description": "Dados sobre a hanseníase",
         "dialect": {
           "delimiter": ";"
         },
@@ -19,11 +19,15 @@
           "fields": [
             {
               "name": "dt_notific",
-              "type": "date"
+              "type": "date",
+              "title": "Data de Notificação",
+              "description": "Data de Notificação"
             },
             {
               "name": "id_municip",
-              "type": "string"
+              "type": "string",
+              "title": "Município de Notificação",
+              "description": "Município de Notificação"
             },
             {
               "name": "id_regiona",
@@ -152,7 +156,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Hanseníase",
         "stats": {
           "hash": "7bb95dda065167c57891c5598055669f",
           "bytes": 6798654,
@@ -160,7 +164,7 @@
           "rows": 20409
         }
       },
-      "time": 2.333,
+      "time": 2.369,
       "scope": [
         "hash-count-error",
         "byte-count-error",
