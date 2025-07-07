@@ -47,9 +47,9 @@ resources:
           description: Sexo
           constraints:
             enum:
-            -'Feminino'
-            -'Masculino'
-            -'Ignorado'
+              - 'Feminino'
+              - 'Masculino'
+              - 'Ignorado'
         - name: cs_gestant
           type: string
         - name: cs_raca
