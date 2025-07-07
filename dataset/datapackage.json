@@ -4,7 +4,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "description": "Dados sobre a hanseníase",
       "dialect": {
         "delimiter": ";"
       },
@@ -18,11 +18,15 @@
         "fields": [
           {
             "name": "dt_notific",
-            "type": "date"
+            "type": "date",
+            "title": "Data de Notificação",
+            "description": "Data de Notificação"
           },
           {
             "name": "id_municip",
-            "type": "string"
+            "type": "string",
+            "title": "Município de Notificação",
+            "description": "Município de Notificação"
           },
           {
             "name": "id_regiona",
@@ -151,7 +155,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Hanseníase"
     }
   ],
   "title": "Hanseníase"
