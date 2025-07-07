@@ -1,4 +1,4 @@
-name: dados_hanseniase
+name: hanseniase
 owner_org: secretaria-de-estado-de-saude-ses
 profile: data-package
 resources:
@@ -81,4 +81,4 @@ resources:
           type: string
     scheme: file
     title: Insira um título humanamente legível para este recurso.
-title: Dados_hanseniase
+title: Hanseníase
