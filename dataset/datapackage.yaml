@@ -1,0 +1,84 @@
+name: dados_hanseniase
+owner_org: secretaria-de-estado-de-saude-ses
+profile: data-package
+resources:
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: dados_hanseniase
+    path: data/dados_hanseniase.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: dt_notific
+          type: date
+        - name: id_municip
+          type: string
+        - name: id_regiona
+          type: string
+        - name: id_unidade
+          type: integer
+        - name: dt_diag
+          type: date
+        - name: dt_nasc
+          type: date
+        - name: nu_idade_n
+          type: integer
+        - name: cs_sexo
+          type: string
+        - name: cs_gestant
+          type: string
+        - name: cs_raca
+          type: string
+        - name: cs_escol_n
+          type: string
+        - name: id_mn_resi
+          type: string
+        - name: id_rg_resi
+          type: string
+        - name: nu_lesoes
+          type: geopoint
+        - name: formaclini
+          type: string
+        - name: avalia_n
+          type: string
+        - name: classopera
+          type: string
+        - name: modoentr
+          type: string
+        - name: mododetect
+          type: string
+        - name: bacilosco
+          type: string
+        - name: dtinictrat
+          type: date
+        - name: esq_ini_n
+          type: string
+        - name: contreg
+          type: geopoint
+        - name: nervosafet
+          type: geopoint
+        - name: dt_noti_at
+          type: date
+        - name: dtultcomp
+          type: date
+        - name: classatual
+          type: string
+        - name: aval_atu_n
+          type: string
+        - name: esq_atu_n
+          type: geopoint
+        - name: dose_receb
+          type: geopoint
+        - name: contexam
+          type: geopoint
+        - name: dtalta_n
+          type: date
+        - name: tpalta_n
+          type: string
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+title: Dados_hanseniase
