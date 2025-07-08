@@ -91,18 +91,47 @@ resources:
           type: string
           title: Avaliação do grau incapacidade física por ocasião do diagnóstico
           description: Avaliação do grau incapacidade física por ocasião do diagnóstico
+          constraints:
+                enum: 
+                 - 'Grau zero'
+                 - 'Grau I'
+                 - 'Grau II'
+                 - 'V(virchowiana)'
+                 - 'Não avaliado'
         - name: classopera
           type: string
           title: Classificação operacional
           description: Classificação operacional, por ocasião do diagnóstico, para eleição do esquema terapêutico
+          constraints:
+            enum: 
+              -'MB (Multibacilar)'
+              -'PB (Paucibacilar)'
         - name: modoentr
           type: string
           title: Modo de entrada
           description: Modo de entrada do paciente no sistema
+          constraints:
+            enum:
+              - 'Caso novo'
+              - 'Transferência do mesmo município'
+              - 'Transferência de outro município'
+              - 'Transferência de outro estado'
+              - 'Transferência de outro país'
+              - 'Recidiva'
+              - 'Outros reingressos'
+              - 'Ignorado'
         - name: mododetect
           type: string
           title: Modo de detecção do caso novo
           description: Modo de detecção do caso novo
+          constraints:
+            enum:
+              - 'Encaminhamento'
+              - 'Demanda espontânea'
+              - 'Exame de coletividade'
+              - 'Exame de contatos'
+              - 'Outros modos'
+              - 'Ignorado'
         - name: bacilosco
           type: string
           title: Baciloscopia
