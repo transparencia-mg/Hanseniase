@@ -230,7 +230,14 @@
             "name": "tpalta_n",
             "type": "string",
             "title": "Tipo de Saída",
-            "description": "Tipo de Saída"
+            "description": "Tipo de Saída",
+            "constraints": {
+              "enum": [
+                "Cura",
+                "Óbito",
+                "Abandono"
+              ]
+            }
           }
         ]
       },
