@@ -87,49 +87,78 @@ resources:
           type: string
           title: Forma clínica
           description: Forma clínica inicial por ocasião do diagnóstico, segundo classificação de Madrid
-          constraints:
-                enum: 
-                 -'I(indeterminada)'
-                 -'T(tuberculoide)'
-                 -'D(dimorfa)'
-                 -'V(virchowiana)'
-                 -'Não classificado'
         - name: avalia_n
           type: string
+          title: Avaliação do grau incapacidade física por ocasião do diagnóstico
+          description: Avaliação do grau incapacidade física por ocasião do diagnóstico
         - name: classopera
           type: string
+          title: Classificação operacional
+          description: Classificação operacional, por ocasião do diagnóstico, para eleição do esquema terapêutico
         - name: modoentr
           type: string
+          title: Modo de entrada
+          description: Modo de entrada do paciente no sistema
         - name: mododetect
           type: string
+          title: Modo de detecção do caso novo
+          description: Modo de detecção do caso novo
         - name: bacilosco
           type: string
+          title: Baciloscopia
+          description: Resultado da baciloscopia
         - name: dtinictrat
           type: date
+          title: Data do início do tratamento
+          description: Data do início do tratamento
         - name: esq_ini_n
           type: string
+          title: Esquema terapêutico
+          description:Esquema terapêutico instituído por ocasião do diagnostico
         - name: contreg
           type: geopoint
+          title: Número de pessoas com contato
+          description: Número de pessoas que residam ou tenham residido, nos últimos 5 anos com o doente, a contar da Data do diagnóstico
         - name: nervosafet
           type: geopoint
+          title: Número de nervos afetados
+          description: Número de nervos afetados
         - name: dt_noti_at
           type: date
+          title: Data de notificação feito pela unidade de saúde
+          description: Data de notificação do caso pela unidade de saúde responsável pelo tratamento atual do caso
         - name: dtultcomp
           type: date
+          title: Data do último comparecimento
+          description: Data do último comparecimento do paciente na unidade de saúde ou atendimento por agente de saúde
         - name: classatual
           type: string
+          title: Classificação atual
+          description: Classificação operacional do caso para eleição do esquema terapêutico adequado
         - name: aval_atu_n
           type: string
+          title: Avaliação do grau de incapacidade física
+          description: Avaliação do grau de incapacidade física no momento da cura
         - name: esq_atu_n
           type: geopoint
+          title: Esquema terapêutico em uso atual
+          description: Esquema terapêutico em uso atual
         - name: dose_receb
           type: geopoint
+          title: Número de doses
+          description: Número de doses supervisionadas recebidas sob supervisão
         - name: contexam
           type: geopoint
+          title: Número de contatos
+          description: Número de contatos intradomiciliares submetidos a exame dermatoneurológico
         - name: dtalta_n
           type: date
+          title: Data da alta
+          description: Data da alta
         - name: tpalta_n
           type: string
+          title: Tipo de Saída
+          description: Tipo de Saída
     scheme: file
     title: Hanseníase
 title: Hanseníase
