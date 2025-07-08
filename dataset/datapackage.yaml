@@ -128,7 +128,7 @@ resources:
               - 'Grau II'
               - 'V(virchowiana)I'
               - 'Não avaliado'
-         - name: classopera
+        - name: classopera
           type: string
           title: Classificação operacional
           description: Classificação operacional, por ocasião do diagnóstico, para eleição do esquema terapêutico
