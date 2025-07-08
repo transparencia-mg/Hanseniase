@@ -107,6 +107,12 @@ resources:
           type: string
           title: Baciloscopia
           description: Resultado da baciloscopia
+          constraints:
+            enum:
+              - 'Positiva'
+              - 'Negativa'
+              - 'Não realizada'
+              - 'Ignorado'
         - name: dtinictrat
           type: date
           title: Data do início do tratamento
@@ -115,6 +121,11 @@ resources:
           type: string
           title: Esquema terapêutico
           description: Esquema terapêutico instituído por ocasião do diagnostico
+          constraints:
+            enum:
+              - 'PQT/PB/6 doses'
+              - 'PQT/MB/12 doses'
+              - 'Outros esquemas substitutos'
         - name: contreg
           type: geopoint
           title: Número de pessoas com contato
@@ -135,6 +146,10 @@ resources:
           type: string
           title: Classificação atual
           description: Classificação operacional do caso para eleição do esquema terapêutico adequado
+          constraints:
+            enum:
+              - 'MB(Multibacilar)'
+              - 'PB(Paucibacilar)'
         - name: aval_atu_n
           type: string
           title: Avaliação do grau de incapacidade física
