@@ -139,6 +139,13 @@ resources:
           type: string
           title: Avaliação do grau de incapacidade física
           description: Avaliação do grau de incapacidade física no momento da cura
+           constraints:
+            enum:
+              - 'Grau Zero'
+              - 'Grau I'
+              - 'Grau II'
+              - 'Não avaliado'
+              - 'Ignorado'
         - name: esq_atu_n
           type: geopoint
           title: Esquema terapêutico em uso atual
