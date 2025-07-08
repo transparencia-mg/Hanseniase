@@ -235,7 +235,13 @@
               "enum": [
                 "Cura",
                 "Óbito",
-                "Abandono"
+                "Abandono",
+                "Erro diagnóstico",
+                "transferência para outro estado",
+                "Transferência para mesmo município",
+                "Transferência para outro município",
+                "Transferência para outro estado",
+                "Transferência para outro país"
               ]
             }
           }
