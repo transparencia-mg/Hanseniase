@@ -152,7 +152,15 @@
             "name": "bacilosco",
             "type": "string",
             "title": "Baciloscopia",
-            "description": "Resultado da baciloscopia"
+            "description": "Resultado da baciloscopia",
+            "constraints": {
+              "enum": [
+                "Positiva",
+                "Negativa",
+                "Não realizada",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "dtinictrat",
@@ -164,7 +172,14 @@
             "name": "esq_ini_n",
             "type": "string",
             "title": "Esquema terapêutico",
-            "description": "Esquema terapêutico instituído por ocasião do diagnostico"
+            "description": "Esquema terapêutico instituído por ocasião do diagnostico",
+            "constraints": {
+              "enum": [
+                "PQT/PB/6 doses",
+                "PQT/MB/12 doses",
+                "Outros esquemas substitutos"
+              ]
+            }
           },
           {
             "name": "contreg",
@@ -194,7 +209,13 @@
             "name": "classatual",
             "type": "string",
             "title": "Classificação atual",
-            "description": "Classificação operacional do caso para eleição do esquema terapêutico adequado"
+            "description": "Classificação operacional do caso para eleição do esquema terapêutico adequado",
+            "constraints": {
+              "enum": [
+                "MB(Multibacilar)",
+                "PB(Paucibacilar)"
+              ]
+            }
           },
           {
             "name": "aval_atu_n",
