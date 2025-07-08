@@ -73,103 +73,164 @@
           },
           {
             "name": "cs_gestant",
-            "type": "string"
+            "type": "string",
+            "title": "Gestante",
+            "description": "Gestante",
+            "constraints": {
+              "enum": [
+                "1° Trimestre",
+                "2° Trimestre",
+                "3° Trimestre",
+                "Idade Gestacional ignorada",
+                "Não",
+                "Não se aplica",
+                "ignorado"
+              ]
+            }
           },
           {
             "name": "cs_raca",
-            "type": "string"
+            "type": "string",
+            "title": "Raça/Cor",
+            "description": "Raça/Cor"
           },
           {
             "name": "cs_escol_n",
-            "type": "string"
+            "type": "string",
+            "title": "Escolaridade",
+            "description": "Escolaridade"
           },
           {
             "name": "id_mn_resi",
-            "type": "string"
+            "type": "string",
+            "title": "Município de Residência",
+            "description": "Município de Residência"
           },
           {
             "name": "id_rg_resi",
-            "type": "string"
+            "type": "string",
+            "title": "Regional de Residência",
+            "description": "Regional de Residência"
           },
           {
             "name": "nu_lesoes",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Número de lesões",
+            "description": "Número de lesões dermatológicas apresentadas pelo paciente por ocasião do diagnóstico"
           },
           {
             "name": "formaclini",
-            "type": "string"
+            "type": "string",
+            "title": "Forma clínica",
+            "description": "Forma clínica inicial por ocasião do diagnóstico, segundo classificação de Madrid"
           },
           {
             "name": "avalia_n",
-            "type": "string"
+            "type": "string",
+            "title": "Avaliação do grau incapacidade física por ocasião do diagnóstico",
+            "description": "Avaliação do grau incapacidade física por ocasião do diagnóstico"
           },
           {
             "name": "classopera",
-            "type": "string"
+            "type": "string",
+            "title": "Classificação operacional",
+            "description": "Classificação operacional, por ocasião do diagnóstico, para eleição do esquema terapêutico"
           },
           {
             "name": "modoentr",
-            "type": "string"
+            "type": "string",
+            "title": "Modo de entrada",
+            "description": "Modo de entrada do paciente no sistema"
           },
           {
             "name": "mododetect",
-            "type": "string"
+            "type": "string",
+            "title": "Modo de detecção do caso novo",
+            "description": "Modo de detecção do caso novo"
           },
           {
             "name": "bacilosco",
-            "type": "string"
+            "type": "string",
+            "title": "Baciloscopia",
+            "description": "Resultado da baciloscopia"
           },
           {
             "name": "dtinictrat",
-            "type": "date"
+            "type": "date",
+            "title": "Data do início do tratamento",
+            "description": "Data do início do tratamento"
           },
           {
             "name": "esq_ini_n",
-            "type": "string"
+            "type": "string",
+            "title": "Esquema terapêutico",
+            "description": "Esquema terapêutico instituído por ocasião do diagnostico"
           },
           {
             "name": "contreg",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Número de pessoas com contato",
+            "description": "Número de pessoas que residam ou tenham residido, nos últimos 5 anos com o doente, a contar da Data do diagnóstico"
           },
           {
             "name": "nervosafet",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Número de nervos afetados",
+            "description": "Número de nervos afetados"
           },
           {
             "name": "dt_noti_at",
-            "type": "date"
+            "type": "date",
+            "title": "Data de notificação feito pela unidade de saúde",
+            "description": "Data de notificação do caso pela unidade de saúde responsável pelo tratamento atual do caso"
           },
           {
             "name": "dtultcomp",
-            "type": "date"
+            "type": "date",
+            "title": "Data do último comparecimento",
+            "description": "Data do último comparecimento do paciente na unidade de saúde ou atendimento por agente de saúde"
           },
           {
             "name": "classatual",
-            "type": "string"
+            "type": "string",
+            "title": "Classificação atual",
+            "description": "Classificação operacional do caso para eleição do esquema terapêutico adequado"
           },
           {
             "name": "aval_atu_n",
-            "type": "string"
+            "type": "string",
+            "title": "Avaliação do grau de incapacidade física",
+            "description": "Avaliação do grau de incapacidade física no momento da cura"
           },
           {
             "name": "esq_atu_n",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Esquema terapêutico em uso atual",
+            "description": "Esquema terapêutico em uso atual"
           },
           {
             "name": "dose_receb",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Número de doses",
+            "description": "Número de doses supervisionadas recebidas sob supervisão"
           },
           {
             "name": "contexam",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Número de contatos",
+            "description": "Número de contatos intradomiciliares submetidos a exame dermatoneurológico"
           },
           {
             "name": "dtalta_n",
-            "type": "date"
+            "type": "date",
+            "title": "Data da alta",
+            "description": "Data da alta"
           },
           {
             "name": "tpalta_n",
-            "type": "string"
+            "type": "string",
+            "title": "Tipo de Saída",
+            "description": "Tipo de Saída"
           }
         ]
       },
