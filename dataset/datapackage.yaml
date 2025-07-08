@@ -74,7 +74,7 @@ resources:
                  -'Amarela'
                  -'Parda'
                  -'Indígena'
-                 -'Ignorado
+                 -'Ignorado'
         - name: cs_escol_n
           type: string
           title: Escolaridade
