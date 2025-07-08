@@ -159,6 +159,11 @@ resources:
           type: string
           title: Tipo de Saída
           description: Tipo de Saída
+          constraints:
+            enum:
+              - 'Cura'
+              - 'Óbito'
+              - 'Abandono'
     scheme: file
     title: Hanseníase
 title: Hanseníase
