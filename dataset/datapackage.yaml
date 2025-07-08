@@ -139,7 +139,7 @@ resources:
           type: string
           title: Avaliação do grau de incapacidade física
           description: Avaliação do grau de incapacidade física no momento da cura
-           constraints:
+          constraints:
             enum:
               - 'Grau Zero'
               - 'Grau I'
