@@ -114,7 +114,7 @@ resources:
         - name: esq_ini_n
           type: string
           title: Esquema terapêutico
-          description:Esquema terapêutico instituído por ocasião do diagnostico
+          description: Esquema terapêutico instituído por ocasião do diagnostico
         - name: contreg
           type: geopoint
           title: Número de pessoas com contato
