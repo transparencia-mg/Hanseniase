@@ -108,6 +108,13 @@ resources:
           type: string
           title: Forma clínica
           description: Forma clínica inicial por ocasião do diagnóstico, segundo classificação de Madrid
+          constraints:
+            enum:
+              - 'I(indeterminada)'
+              - 'T(tuberculoide)'
+              - 'D(dimorfa)'
+              - 'V(virchowiana)'
+              - 'Não classificado'
         - name: avalia_n
           type: string
           title: Avaliação do grau incapacidade física por ocasião do diagnóstico
