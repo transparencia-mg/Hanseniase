@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.205,
+  "time": 0.199,
   "errors": [],
   "tasks": [
     {
@@ -148,7 +148,16 @@
               "name": "formaclini",
               "type": "string",
               "title": "Forma clínica",
-              "description": "Forma clínica inicial por ocasião do diagnóstico, segundo classificação de Madrid"
+              "description": "Forma clínica inicial por ocasião do diagnóstico, segundo classificação de Madrid",
+              "constraints": {
+                "enum": [
+                  "I(indeterminada)",
+                  "T(tuberculoide)",
+                  "D(dimorfa)",
+                  "V(virchowiana)",
+                  "Não classificado"
+                ]
+              }
             },
             {
               "name": "avalia_n",
@@ -349,7 +358,7 @@
           "rows": 0
         }
       },
-      "time": 0.174,
+      "time": 0.169,
       "scope": [
         "hash-count-error",
         "byte-count-error",
