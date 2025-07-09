@@ -1,11 +1,10 @@
 {
   "version": "4.16.6",
-  "time": 0.198,
+  "time": 0.205,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Dados sobre a hanseníase",
         "dialect": {
           "delimiter": ";"
         },
@@ -350,7 +349,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Hanseníase",
+        "title": "Dados de Hanseníase",
         "stats": {
           "hash": "",
           "bytes": 0,
@@ -358,7 +357,7 @@
           "rows": 0
         }
       },
-      "time": 0.167,
+      "time": 0.174,
       "scope": [
         "hash-count-error",
         "byte-count-error",
