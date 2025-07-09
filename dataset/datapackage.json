@@ -4,7 +4,6 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Dados sobre a hanseníase",
       "dialect": {
         "delimiter": ";"
       },
@@ -349,7 +348,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Hanseníase"
+      "title": "Dados de Hanseníase"
     }
   ],
   "title": "Dados de Hanseníase"
