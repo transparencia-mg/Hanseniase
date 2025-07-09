@@ -2,8 +2,7 @@ name: hanseniase
 owner_org: secretaria-de-estado-de-saude-ses
 profile: data-package
 resources:
-  - description: Dados sobre a hanseníase
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -250,5 +249,5 @@ resources:
               - 'Transferência para outro estado'
               - 'Transferência para outro país'
     scheme: file
-    title: Hanseníase
+    title: Dados de Hanseníase
 title: Dados de Hanseníase
