@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.2,
+  "time": 0.198,
   "errors": [],
   "tasks": [
     {
@@ -357,7 +357,7 @@
           "rows": 0
         }
       },
-      "time": 0.17,
+      "time": 0.169,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1842,14 +1842,14 @@
             "0,0",
             "3,0",
             "2024-09-20",
-            "2025-09-05",
+            "2025-10-10",
             "MB(Multibacilar)",
-            "",
+            "Grau I",
             "3,0",
             "12,0",
             "0,0",
-            "",
-            ""
+            "2025-10-10",
+            "Cura"
           ],
           "rowNumber": 15,
           "rowPosition": 16,
